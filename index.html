@@ -3,30 +3,61 @@
 	<header>
 	<title>CAUSE NAME GOES HERE</title>
 	<link rel="stylesheet" href="css/styles.css"/>
+	<style>
+	#container {
+		width: 960px; 
+		margin: 0 auto;
+	}
+
+	#primarySidebar {
+		float:left;
+		width: 24.5%;
+	}
+
+	#mainContent {
+		float:left;
+		width: 50%;
+		height: 100vh;
+		border: 1px;
+		border-style: dashed;
+		border-color: black;
+		border-top: none;
+		border-bottom: none;
+	}
+
+	#secondarySidebar {
+		float:left;
+		width: 24.5%;
+	}
+
+	.homepageSections {
+		font-family: 'Oswald', sans-serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+	</style>
+	</header>
 	<body>
 		<div id="container">
 			<div id="header">
 				<div id="mainHeader">
 					<center>
 						<img src="screen.png">
-							<ul class="nav">
+					<ul class="nav">
 						<li class="home"><a href="#">Home</a></li>
 						<li class="donation"><a href="#">Donation</a></li>
 						<li class="volunteer"><a href="#">Volunteer</a></li>
 					</ul>
 					</center>
 				</div>
-			
-				</nav>
 				<div id="socialNetworkContent">
 				</div>
 			</div>
-			<div id"primarySidebar">
-			</div>
-			<div id="mainContent"></div>
-			<div id="secondarySidebar"></div>
+			<div id="primarySidebar" class="homepageSections">
+			<p>Quotes</p></div>
+			<div id="mainContent" class="homepageSections"><p>Main Content</p></div>
+			<div id="secondarySidebar" class="homepageSections"><p>Quotes</p></div>
 		</div>
 	</body>
-</header>
 </html>
 
