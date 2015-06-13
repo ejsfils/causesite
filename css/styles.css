@@ -50,3 +50,14 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
+
+#footer {
+    padding-top: 30px;
+    clear:both;
+    text-align: center;
+
+}
+
+.social {
+  padding-right: 30px;
+}
